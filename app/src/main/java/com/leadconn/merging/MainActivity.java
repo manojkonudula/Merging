@@ -9,5 +9,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        addition();
+    }
+
+    public void addition()
+    {
+        int a= 10;
+        int b =20;
+        int c = (a+b);
     }
 }
