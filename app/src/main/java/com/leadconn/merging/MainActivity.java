@@ -9,5 +9,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        subtraction();
+    }
+    public void subtraction()
+    {
+        int a = 40;
+        int b = 20;
+        int c= (a-b);
     }
 }
